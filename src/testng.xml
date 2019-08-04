@@ -8,7 +8,7 @@
   <parameter name = "lon" value = "144.93465"/>
   <parameter name = "Expcoordinate" value = "[144.93465,-37.839516]"/>
     <classes>
-      <class name="com.qa.api.tests.GetCallBDD"/>
+      <class name="com.qa.api.tests.AirAPITest"/>
     </classes>
   </test>
 </suite>
