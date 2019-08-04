@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AirVisual API Test Suite">
+  <test name="AirVisual API Test">
+  <parameter name="country" value = "Australia"/>
+  <parameter name="no_of_states" value = "7"/>
+  <parameter name = "lat" value = "-37.839516"/>
+  <parameter name = "lon" value = "144.93465"/>
+  <parameter name = "Expcoordinate" value = "[144.93465,-37.839516]"/>
+    <classes>
+      <class name="com.qa.api.tests.AirAPITest"/>
+    </classes>
+  </test>
+</suite>

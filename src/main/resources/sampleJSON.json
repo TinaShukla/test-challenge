@@ -1,0 +1,33 @@
+{
+    "status": "success",
+    "data": {
+        "city": "Port Melbourne",
+        "state": "Victoria",
+        "country": "Australia",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.93464,
+                -37.839517
+            ]
+        },
+        "current": {
+            "weather": {
+                "ts": "2019-08-03T08:00:00.000Z",
+                "tp": 11,
+                "pr": 1029,
+                "hu": 81,
+                "ws": 3.6,
+                "wd": 270,
+                "ic": "04n"
+            },
+            "pollution": {
+                "ts": "2019-08-03T08:00:00.000Z",
+                "aqius": 12,
+                "mainus": "p2",
+                "aqicn": 4,
+                "maincn": "p2"
+            }
+        }
+    }
+}

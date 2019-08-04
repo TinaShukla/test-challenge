@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AirVisual API Test Suite" duration-ms="8780" started-at="2019-08-04T05:13:03Z" finished-at="2019-08-04T05:13:12Z">
+    <groups>
+    </groups>
+    <test name="AirVisual API Test" duration-ms="8780" started-at="2019-08-04T05:13:03Z" finished-at="2019-08-04T05:13:12Z">
+      <class name="com.qa.api.tests.AirAPITest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.api.tests.AirAPITest@6d4b1c02]" name="setup" is-config="true" duration-ms="429" started-at="2019-08-04T05:13:03Z" finished-at="2019-08-04T05:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_authorization_expectStatus200(java.lang.String)[pri:0, instance:com.qa.api.tests.AirAPITest@6d4b1c02]" name="test_authorization_expectStatus200" is-config="true" duration-ms="2351" started-at="2019-08-04T05:13:04Z" finished-at="2019-08-04T05:13:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_authorization_expectStatus200 -->
+        <test-method status="PASS" signature="test_numberOfStatesinAustralia(java.lang.String, int)[pri:1, instance:com.qa.api.tests.AirAPITest@6d4b1c02]" name="test_numberOfStatesinAustralia" duration-ms="1944" started-at="2019-08-04T05:13:06Z" finished-at="2019-08-04T05:13:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_numberOfStatesinAustralia -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.api.tests.AirAPITest@6d4b1c02]" name="setup" is-config="true" duration-ms="0" started-at="2019-08-04T05:13:08Z" finished-at="2019-08-04T05:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_authorization_expectStatus200(java.lang.String)[pri:0, instance:com.qa.api.tests.AirAPITest@6d4b1c02]" name="test_authorization_expectStatus200" is-config="true" duration-ms="995" started-at="2019-08-04T05:13:08Z" finished-at="2019-08-04T05:13:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_authorization_expectStatus200 -->
+        <test-method status="PASS" signature="test_NearestCityAndCoordinates(java.lang.String, java.lang.String)[pri:2, instance:com.qa.api.tests.AirAPITest@6d4b1c02]" name="test_NearestCityAndCoordinates" duration-ms="1032" started-at="2019-08-04T05:13:09Z" finished-at="2019-08-04T05:13:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-37.839516]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[144.93465]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NearestCityAndCoordinates -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.api.tests.AirAPITest@6d4b1c02]" name="setup" is-config="true" duration-ms="0" started-at="2019-08-04T05:13:10Z" finished-at="2019-08-04T05:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_authorization_expectStatus200(java.lang.String)[pri:0, instance:com.qa.api.tests.AirAPITest@6d4b1c02]" name="test_authorization_expectStatus200" is-config="true" duration-ms="912" started-at="2019-08-04T05:13:10Z" finished-at="2019-08-04T05:13:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_authorization_expectStatus200 -->
+        <test-method status="PASS" signature="test_LatitudeAndLongitudeTemperature(java.lang.String, java.lang.String)[pri:3, instance:com.qa.api.tests.AirAPITest@6d4b1c02]" name="test_LatitudeAndLongitudeTemperature" duration-ms="1072" started-at="2019-08-04T05:13:11Z" finished-at="2019-08-04T05:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-37.839516]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[144.93465]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LatitudeAndLongitudeTemperature -->
+      </class> <!-- com.qa.api.tests.AirAPITest -->
+    </test> <!-- AirVisual API Test -->
+  </suite> <!-- AirVisual API Test Suite -->
+</testng-results>
